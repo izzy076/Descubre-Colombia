@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="./assets/favicon.ico" type="image/x-icon" />
+    <title>DÓNDE IR?</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous" />
+
+    <!-- Iconos de bootstrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css" />
+    <!-- Font Awesome -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet" />
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" rel="stylesheet" />
+    <!-- MDB -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/9.1.0/mdb.min.css" rel="stylesheet" />
+
+    <!-- Estilos propios -->
+    <!-- más importantes -->
+    <link rel="stylesheet" href="./styles/donde-ir.css" />
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark menu">
+            <div class="container-fluid">
+                <button data-mdb-collapse-init class="navbar-toggler" type="button"
+                    data-mdb-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <i class="fas fa-bars"></i>
+                </button>
+                <a class="navbar-brand" href="./index.html">
+                    <img class="icono" src="./assets/android-chrome-512x512.png" alt="logo" />
+                </a>
+                <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item tips">
+                            <a class="nav-link active" aria-current="page" href="./index.html">Inicio</a>
+                        </li>
+                        <li class="nav-item tips">
+                            <a class="nav-link" href="./donde-ir.html">Dónde ir?</a>
+                        </li>
+                        <li class="nav-item tips">
+                            <a class="nav-link" href="./que-hacer.html">Qué hacer?</a>
+                        </li>
+                        <li class="nav-item tips">
+                            <a class="nav-link" href="./blog.html">Blog</a>
+                        </li>
+                    </ul>
+                    <!-- <form class="d-flex input-group w-auto barraBusqueda">
+              <input
+                type="search"
+                class="form-control"
+                placeholder="Buscar"
+                aria-label="Search"
+              />
+
+                <i class="bi bi-search lupa"></i>
+                
+            </form> -->
+                    <form class="d-none d-md-flex input-group my-auto barraBusqueda">
+                        <input autocomplete="off" type="search" class="form-control rounded" placeholder="Buscar"
+                            style="min-width: 225px" />
+                        <span class="input-group-text border-0"><i class="fas fa-search lupa"></i></span>
+                    </form>
+                </div>
+            </div>
+        </nav>
+        <section>
+            <img class="imagen-inicio" src="./assets/image 27 (1).svg" alt="Imagen-Colombia" />
+
+            <h1>Dónde ir?</h1>
+        </section>
+    </header>
+    <main>
+        <h2>Conoce un poco más de las regiones de Colombia</h2>
+
+        <h4>Colombia se compone de 6 regiones, cada una con su propio encanto; que en conjunto reflejan la gran riqueza
+            natural, cultural y paisajística del país.</h4>
+
+        <img class="regiones" src="./assets/image 25.svg" alt="regiones">
+
+        <section class="colombia">
+            <img src="./assets/image 55.svg" alt="Buscar-colombia">
+            <section class="texto">
+                <p>Tal vez ya visitaste nuestro país, o tal vez has oído hablar de nuestras playas, montañas,
+                    naturaleza,
+                    destinos y gastronomía. Pero probablemente te faltan por conocer muchos más lugares.
+                    Da click en el botón y mira un póco más de nuestra bella Colombia</p>
+                <button class="boton-video">¡ Mira aquí !</button>
+            </section>
+        </section>
+        <section class="contenedor-caribe">
+            <div class="parrafo-caribe">
+                <h3>CARIBE</h3>
+                <p>El Gran Caribe Colombiano ofrece una asombrosa variedad de paisajes, desde selvas y glaciares hasta
+                    arrecifes e islas de aguas turquesa, junto a playas de arena suave. Es un destino privilegiado para
+                    el descanso y hogar de una diversidad cultural que incluye comunidades indígenas, isleñas y
+                    herencias africanas, reflejando la riqueza natural y humana de la región.</p>
+            </div>
+            <img src="./assets/image 26.svg" alt="Mapa-Caribe">
+        </section>
+        <section class="contenedor-andesOccidental">
+            <img src="./assets/image 28.svg" alt="Mapa-Andes-Occidental">
+            <div class="parrafo-andesOccidental">
+                <h3>ANDES OCCIDENTAL</h3>
+                <p>Los Andes Occidentales Colombianos, con sus montañas cafetaleras, pueblos coloridos y paisajes
+                    floridos, cautivan a cualquier viajero. Su gente, los paisas, destaca por su hospitalidad y orgullo
+                    regional, visibles tanto en la vibrante Medellín como en sus tranquilos pueblos</p>
+            </div>
+        </section>
+        <section class="contenedor-pacifico">
+            <div class="parrafo-pacifico">
+                <h3>PACÍFICO</h3>
+                <p>El Pacífico Colombiano, uno de los secretos mejor guardados del país, combina selva, mar y una
+                    biodiversidad excepcional. Sus playas vírgenes, cascadas, manglares y fauna única se complementan
+                    con la riqueza cultural afrocolombiana e indígena, ofreciendo un entorno donde la naturaleza y la
+                    tradición se viven en armonía, a poca distancia de las principales ciudades.</p>
+            </div>
+            <img src="./assets/image 32.svg" alt="Mapa-Pacifico">
+        </section>
+        <section class="contenedor-andesOriental">
+            <img src="./assets/image 33.svg" alt="Mapa-Andes-Oriental">
+            <div class="parrafo-andesOriental">
+                <h3>ANDES ORIENTAL</h3>
+                <p>Los Andes Orientales Colombianos, marcados por paisajes legendarios y una rica historia, combinan
+                    montañas, lagunas y llanuras con ciudades modernas como Bogotá y pueblos coloniales. Esta región,
+                    escenario de hitos que forjaron la independencia, mantiene vivas sus leyendas y tradiciones en medio
+                    de una sociedad contemporánea.</p>
+            </div>
+        </section>
+        <section class="contenedor-amazonia">
+            <div class="parrafo-amazonia">
+                <h3>AMAZONÍA, ORINOQUÍA</h3>
+                <p>La Amazonía-Orinoquía Colombiana, con sus llanuras del Orinoco y selvas amazónicas, es un refugio de
+                    biodiversidad y cultura ancestral. Alberga ríos únicos, arte prehistórico y comunidades que
+                    preservan la naturaleza, siendo un destino de aventura y descubrimiento.</p>
+            </div>
+            <img src="./assets/image 34.svg" alt="Mapa-Amazonia">
+        </section>
+
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="text-center text-lg-start text-muted">
+        <!-- Section: Social media -->
+        <section class="p-4 border-bottom">
+
+
+            <!-- Section: Social media -->
+
+            <!-- Section: Links  -->
+            <section class="final">
+                <section class="">
+                    <!-- Grid row -->
+                    <div class="row mt-3">
+                        <!-- Grid column -->
+                        <section class="footer">
+                            <div class="logo">
+                                <!-- Content -->
+                                <img class="logoImagen" src="./assets/android-chrome-512x512.png" alt="logo">
+                            </div>
+                            <!-- Grid column -->
+
+                            <!-- Grid column -->
+                            <div class="redes">
+                                <!-- Links -->
+                                <h6 class="text-uppercase fw-bold mb-4">
+                                    Redes Sociales
+                                </h6>
+                                <p>
+                                    <i class="bi bi-instagram"></i>
+                                    <a href="https://www.instagram.com/?flo=true" class="text-reset">Descubre_Colombia</a>
+                                </p>
+                                <p>
+                                    <i class="bi bi-facebook"></i>
+                                    <a href="https://www.facebook.com/?stype=lo&flo=1&deoia=1&jlou=AfeqD6CRYPjEAXs30L4qc0PcTxNDGCWLKJqoLb7Id6T5GOMjSwRKKo49drx9y1yxq7obyDEEXkF6iRCLVl67tIPU&smuh=5847&lh=Ac_R5DNHw0dDGbokWug" class="text-reset">Descubre_Colombia25</a>
+                                </p>
+                                <p>
+                                    <i class="bi bi-whatsapp"></i>
+                                    <a href="https://web.whatsapp.com/" class="text-reset">3002218722</a>
+                                </p>
+                            </div>
+                            <!-- Grid column -->
+
+
+
+                            <!-- Grid column -->
+                            <div class="contacto">
+                                <!-- Links -->
+                                <h6 class="text-uppercase fw-bold mb-4">Contacto</h6>
+                                <p><i class="fas fa-home me-3"></i>Dirección: Carrera 12 #45-67, Bogotá, Colombia</p>
+                                <p>
+                                    <i class="fas fa-envelope me-3"></i>
+                                    info@descubrecolombia.com
+                                </p>
+                                <p><i class="fas fa-phone me-3"></i> (+57) 3209876543 </p>
+                                <p><i class="fas fa-phone me-3"></i> (+57) 3104567890 </p>
+                            </div>
+                            <!-- Grid column -->
+                        </section>
+                        <!-- Grid row -->
+                    </div>
+                </section>
+                <!-- Section: Links  -->
+
+                <!-- Copyright -->
+                <div class="creado" ;>
+                    © 2025 Copyright:
+                    <a class="text-reset fw-bold" href="https://mdbootstrap.com/">Creado por Descubre-Colombia</a>
+                </div>
+            </section>
+            <!-- Copyright -->
+    </footer>
+    <!-- Footer -->
+    <!-- JavaScript de bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
+        crossorigin="anonymous"></script>
+    <!-- MDB JavaSceript -->
+    <script type="text/javascript"
+        src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/9.1.0/mdb.umd.min.js"></script>
+</body>
+
+</html>

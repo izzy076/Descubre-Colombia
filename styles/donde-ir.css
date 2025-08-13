@@ -1,0 +1,454 @@
+@import url("https://fonts.cdnfonts.com/css/kaushan-script");
+@import url("https://fonts.cdnfonts.com/css/spline-sans");
+@import url("https://fonts.cdnfonts.com/css/aclonica");
+@import url("https://fonts.cdnfonts.com/css/br-sonoma");
+@import url("https://fonts.cdnfonts.com/css/baloo-thambi");
+@import url("https://fonts.cdnfonts.com/css/aclonica");
+
+.menu {
+    /* fallback for old browsers */
+    background: #fafafa;
+
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: -webkit-linear-gradient(to right, #ffd700, #0003a0, #ce1126);
+
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: linear-gradient(to right, #ffd700, #0003a0, #ce1126);
+    height: 50px;
+}
+
+main {
+    height: 737vh;
+    background-color: #fafafa;
+}
+
+.icono {
+    height: 50px;
+    align-items: center;
+}
+
+.barraBusqueda {
+    border-radius: 20%;
+    padding-right: 10px;
+    width: 400px;
+}
+
+.lupa {
+    padding-left: 30px;
+    color: #fafafa;
+    height: 30px;
+    padding-top: 5px;
+}
+
+.tips {
+    padding: 60px;
+    font-family: "Kaushan Script", sans-serif;
+    font-weight: bold;
+}
+
+.imagen-inicio {
+    width: 1343px;
+}
+
+h1 {
+    text-align: center;
+    position: absolute;
+    top: 500px;
+    left: 20px;
+    right: 600px;
+    color: #fafafa;
+    font-weight: bold;
+    font-family: "SplineSans", sans-serif;
+    font-size: 7rem;
+}
+
+h2 {
+    color: #cd2424;
+    text-align: center;
+    font-size: 55px;
+    padding-top: 50px;
+}
+
+h4 {
+    font-size: 25px;
+    padding-top: 30px;
+    width: 1050px;
+    text-align: center;
+    margin-left: 140px;
+    border: 3px solid violet;
+    font-size: 45px;
+}
+
+.regiones {
+    position: relative;
+    left: 70px;
+    padding-top: 60px;
+    width: 1210px;
+}
+
+footer {
+    margin-top: 70px;
+    height: 20%;
+    background-color: #3f688c;
+    border: 4px solid green;
+}
+
+.logoImagen {
+    border: 5px solid yellow;
+}
+
+.logo {
+    margin-left: 0%;
+}
+
+.colombia {
+    background-color: #b3e5e3;
+    height: 550px;
+    padding-top: 30px;
+    padding-left: 50px;
+    margin-top: 80px;
+    display: flex;
+    flex-direction: row;
+}
+
+.colombia img {
+    width: 600px;
+    padding-bottom: 30px;
+}
+
+.texto {
+    background-color: #62b4ca;
+    color: white;
+    height: 330px;
+    margin-right: 50px;
+    margin-top: 80px;
+    padding-top: 40px;
+    text-align: center;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.texto p {
+    font-size: 20px;
+}
+
+.boton-video {
+    background-color: #161646;
+    color: white;
+    border-radius: 15%;
+    width: 280px;
+    height: 60px;
+    font-size: 27px;
+    margin-top: 25px;
+}
+
+.contenedor-caribe {
+    background-color: #85d0ce28;
+    display: flex;
+    flex-direction: row;
+    height: 700px;
+}
+
+.contenedor-caribe h3 {
+    font-family: "Aclonica", sans-serif;
+    color: #3181a4;
+    font-size: 70px;
+}
+
+.contenedor-caribe p {
+    color: #32a2a6;
+    font-size: 20px;
+}
+
+.parrafo-caribe {
+    text-align: center;
+    padding-left: 80px;
+    padding-right: 200px;
+    padding-top: 50px;
+    font-size: 45px;
+}
+
+.contenedor-caribe img {
+    height: 600px;
+    margin-top: 50px;
+    margin-right: 50px;
+}
+
+.parrafo-caribe {
+    text-align: center;
+    padding-left: 80px;
+    padding-right: 200px;
+    padding-top: 50px;
+    font-size: 45px;
+}
+
+.parrafo-caribe h3 {
+    padding-bottom: 30px;
+}
+
+.contenedor-andesOccidental {
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    height: 700px;
+}
+
+.contenedor-andesOccidental h3 {
+    font-family: "Aclonica", sans-serif;
+    color: #ca2424;
+    font-size: 50px;
+}
+
+.contenedor-andesOccidental p {
+    color: #c74949;
+    font-size: 20px;
+}
+
+.contenedor-andesOccidental img {
+    height: 600px;
+    margin-top: 50px;
+    margin-left: 50px;
+    border: 5px solid green;
+}
+
+.parrafo-andesOccidental {
+    text-align: center;
+    padding-right: 80px;
+    padding-left: 200px;
+    padding-top: 50px;
+    font-size: 45px;
+}
+
+.parrafo-andesOriental h3 {
+    padding-bottom: 30px;
+}
+
+.contenedor-pacifico {
+    background-color: #3126ca28;
+    display: flex;
+    flex-direction: row;
+    height: 700px;
+}
+
+.contenedor-pacifico h3 {
+    font-family: "Aclonica", sans-serif;
+    color: #1f1d6e;
+    font-size: 70px;
+}
+
+.contenedor-pacifico p {
+    color: #403da6;
+    font-size: 20px;
+}
+
+.contenedor-pacifico img {
+    height: 600px;
+    margin-top: 50px;
+    margin-right: 50px;
+}
+
+.parrafo-pacifico {
+    text-align: center;
+    padding-left: 80px;
+    padding-right: 200px;
+    padding-top: 50px;
+    font-size: 45px;
+}
+
+.parrafo-pacifico h3 {
+    padding-bottom: 30px;
+}
+
+.contenedor-andesOriental {
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    height: 700px;
+}
+
+.contenedor-andesOriental h3 {
+    font-size: 60px;
+    font-family: "Aclonica", sans-serif;
+    color: #cd2c67;
+}
+
+.contenedor-andesOriental p {
+    color: #c8557f;
+    font-size: 20px;
+}
+
+.contenedor-andesOriental img {
+    height: 600px;
+    margin-top: 50px;
+    margin-left: 50px;
+}
+
+.parrafo-andesOriental {
+    text-align: center;
+    padding-right: 80px;
+    padding-left: 200px;
+    padding-top: 50px;
+    font-size: 45px;
+}
+
+.parrafo-andesOriental h3 {
+    padding-bottom: 30px;
+}
+
+.contenedor-amazonia {
+    background-color: #39c34e28;
+    display: flex;
+    flex-direction: row;
+    height: 700px;
+}
+
+.contenedor-amazonia h3 {
+    font-size: 70px;
+    font-family: "Aclonica", sans-serif;
+    color: #104e10;
+}
+
+.contenedor-amazonia p {
+    color: #227b22;
+    font-size: 20px;
+}
+
+.contenedor-amazonia img {
+    height: 600px;
+    margin-top: 50px;
+    margin-right: 50px;
+}
+
+.parrafo-amazonia {
+    text-align: center;
+    padding-left: 80px;
+    padding-right: 200px;
+    padding-top: 50px;
+    font-size: 45px;
+}
+
+.parrafo-amazonia h3 {
+    padding-bottom: 30px;
+}
+
+footer {
+  margin-top: 70px;
+  height: 20%;
+  background-color: #3f688c;
+  /* border: 4px solid green; */
+}
+
+.logoImagen {
+  width: 150px;
+  height: 150px;
+}
+
+.logo {
+  /* padding-top: 80px; */
+  /* border: 5px solid yellow; */
+  /* margin: auto; */
+  margin-left: 0%;
+  width: 20%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: start;
+  /* border: 3px solid violet; */
+}
+
+.final {
+  display: flex;
+  flex-direction: column;
+}
+
+.redes {
+  /* border: 5px solid red; */
+  /* margin: auto; */
+  margin-right: 100px;
+  margin-top: 80px;
+  /* margin-left: 30px; */
+  width: 30%;
+  color: white;
+}
+
+.redes p{
+  color: white;
+}
+
+.redes h6 {
+  align-items: center;
+  text-align: center;
+  font-size: 30px;
+  font-family: "Kaushan Script", sans-serif;
+}
+
+.redes p {
+  font-size: 25px;
+  font-family: "Kaushan Script", sans-serif;
+}
+
+.contacto {
+  margin-top: 80px;
+  /* margin: auto; */
+  /* border: 5px solid blue; */
+  width: 40%;
+  color: white;
+}
+
+.contacto p{
+  color: white;
+}
+
+.contacto h6 {
+  align-items: center;
+  text-align: center;
+  font-size: 30px;
+  font-family: "Kaushan Script", sans-serif;
+}
+
+.contacto p {
+  font-size: 25px;
+  font-family: "Kaushan Script", sans-serif;
+}
+
+.creado {
+  text-align: center;
+  color: white;
+}
+
+@media screen and (max-width: 768px) {
+  .footer {
+    flex-direction: column;
+  }
+  
+  footer{
+    height: auto;
+  }
+  .contacto {
+    width: 100%;
+  }
+  .redes {
+    width: 100%;
+  }
+  .logo {
+    width: 100%;
+    justify-content: center;
+  }
+
+  .menu{
+    height: auto;
+  }
+
+  h1{
+    font-size: 2rem;
+    top: 15%;
+    right: 0;
+    left: 0;
+  }
+}

@@ -1,0 +1,54 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(https://cdn.discordapp.com/attachments/1404932162817491017/1405017740183605329/35818-shutterstock-371459737.jpeg?ex=689d4c3d&is=689bfabd&hm=c9d84eb21974b49ac0fce8ee77f5a9d5188e7af512963bb6aa2de7309945c983&);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 100vh;
+}
+
+.formulario {
+    background-color: #22233b;
+    /* padding: 10%; */
+    width: 50%;
+    border: 3pz solid rgb(235, 89, 5);
+    text-align: center;
+    margin-top: 5%;
+    margin-left: 25%;
+}
+
+
+.formulario h2 {
+    font-size: 3.5rem;
+    color: #edf0f0;
+    margin-bottom: 35px;
+} 
+
+.btn{
+    display: flex;
+    justify-content: center;
+}
+
+.btn button{
+    flex-basis: 30%;
+    font-size: 1rem;
+    background-color: #a04848;
+    border: 1px solid #e8f3f1;
+    color: #e8f3f1;
+    border-radius: 20px;
+    outline: 0;
+    cursor: pointer;
+    transition: background 1s;
+}
+
+.btn button:hover{
+    background-color: #268b69;
+    transition: back 1s;
+}
