@@ -1,0 +1,30 @@
+@import url("https://fonts.cdnfonts.com/css/kaushan-script");
+@import url("https://fonts.cdnfonts.com/css/spline-sans");
+@import url("https://fonts.cdnfonts.com/css/aclonica");
+@import url("https://fonts.cdnfonts.com/css/br-sonoma");
+@import url("https://fonts.cdnfonts.com/css/baloo-thambi");
+@import url("https://fonts.cdnfonts.com/css/aclonica");
+
+*{
+    margin: 1%;
+}
+
+body{
+    background-color: #161646;
+    overflow-x: hidden;
+}
+
+h1{
+    font-size: 4rem;
+    color: white;
+    text-align: center;
+    font-family: "SplineSans", sans-serif;
+}
+
+.video{
+    display: flex;
+    align-content: center;
+    margin-left: 10%;
+    margin-top: 5%;
+    width: 80%;
+}

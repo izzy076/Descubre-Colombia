@@ -1,0 +1,251 @@
+@import url("https://fonts.cdnfonts.com/css/kaushan-script");
+@import url("https://fonts.cdnfonts.com/css/spline-sans");
+@import url("https://fonts.cdnfonts.com/css/aclonica");
+@import url("https://fonts.cdnfonts.com/css/br-sonoma");
+@import url("https://fonts.cdnfonts.com/css/baloo-thambi");
+@import url("https://fonts.cdnfonts.com/css/aclonica");
+
+ :root { 
+  /* ===== Colores principales ===== */
+  --color-fondo-principal: #F9F9F9; /* Fondo general de la página */
+  --color-fondo-secciones: #FFFFFF; /* Fondo de tarjetas, cajas o secciones destacadas */
+  --color-borde: #E6E4E6; /* Color de bordes y divisores */
+  --color-texto-principal: #222; /* Texto principal (alto contraste) */
+  --color-texto-secundario: #6B6B6B; /* Texto secundario o desactivado */
+
+  /* ===== Colores de marca o acento ===== */
+  --color-azul-principal: #354584; /* Color corporativo principal (títulos, botones) */
+  --color-amarillo-acento: #E9CB1F; /* Color de acento para destacar elementos */
+  --color-rojo-acento: #9E0E2A; /* Color de acento para alertas o énfasis */
+
+
+/* ===== Estilos globales ===== */
+html, body {
+  background: var(--color-fondo-principal);
+  color: var(--color-texto-principal);
+  font-family: var(--fuente-parrafos);
+}
+
+.container {
+  max-width: var(--ancho-maximo-contenedor); /* Limita ancho del contenido */
+}
+
+
+
+.titulo-principal {
+    /* Título principal*/
+    font-weight: bold;
+    line-height: 1.15; /* Interlineado */
+    font-size: clamp(1.75rem, 1.2rem + 2.2vw, 2.5rem); /* Hace el tamaño del titulo responsivo con estos tres valores */
+}
+
+.titulo{
+    font-size: 5rem;
+    font-family: "SplineSans", sans-serif;
+}
+/* ==================================== Header ======================================== */
+
+body {
+  overflow-x: hidden;
+}
+
+
+.menu {
+  z-index: 1000;
+  /* fallback for old browsers */
+  background: #fafafa;
+
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: -webkit-linear-gradient(to right, #ffd700, #0003a0, #ce1126);
+
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: linear-gradient(to right, #ffd700, #0003a0, #ce1126);
+  height: 50px;
+}
+
+.icono {
+  height: 50px;
+  align-items: center;
+}
+
+.barraBusqueda {
+  border-radius: 20%;
+  padding-right: 10px;
+  width: 400px;
+}
+
+.lupa {
+  padding-left: 30px;
+  color: #fafafa;
+  height: 30px;
+  padding-top: 5px;
+}
+
+.tips {
+  padding: 60px;
+  font-family: "Kaushan Script", sans-serif;
+  font-weight: bold;
+}
+
+/* ===== Main & Footer ===== */
+main { 
+  padding: 2rem 1rem;
+}
+
+footer {
+  margin-top: 70px;
+  height: 20%;
+  background-color: #3f688c;
+  /* border: 4px solid green; */
+}
+
+.footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: start;
+  /* border: 3px solid violet; */
+}
+
+.final {
+  display: flex;
+  flex-direction: column;
+}
+
+.redes {
+  /* border: 5px solid red; */
+  /* margin: auto; */
+  margin-right: 100px;
+  margin-top: 80px;
+  /* margin-left: 30px; */
+  width: 30%;
+  color: white;
+}
+
+.redes p{
+  color: white;
+}
+
+.redes h6 {
+  align-items: center;
+  text-align: center;
+  font-size: 30px;
+  font-family: "Kaushan Script", sans-serif;
+}
+
+.redes p {
+  font-size: 25px;
+  font-family: "Kaushan Script", sans-serif;
+}
+
+.contacto {
+  margin-top: 80px;
+  /* margin: auto; */
+  /* border: 5px solid blue; */
+  width: 40%;
+  color: white;
+}
+
+.contacto p{
+  color: white;
+}
+
+.contacto h6 {
+  align-items: center;
+  text-align: center;
+  font-size: 30px;
+  font-family: "Kaushan Script", sans-serif;
+}
+
+.contacto p {
+  font-size: 25px;
+  font-family: "Kaushan Script", sans-serif;
+}
+
+.creado {
+  text-align: center;
+  color: white;
+}
+
+.texto{
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+h2{
+    font-size: 3rem;
+}
+
+@media screen and (max-width: 768px) {
+  .footer {
+    flex-direction: column;
+    
+  }
+  footer{
+    height: auto;
+  }
+  .contacto {
+    width: 100%;
+  }
+
+  .redes {
+    width: 100%;
+  }
+  
+  .logo {
+    width: 100%;
+    justify-content: center;
+  }
+
+  .menu{
+    height: auto;
+  }
+
+  h1{
+    font-size: 2rem;
+    top: 15%;
+    right: 0;
+    left: 0;
+  }
+
+  .tips{
+    padding: 0;
+  }
+
+  .fotos{
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .contenedor-nariño{
+    left: auto;
+    right: auto;
+  }
+
+  .contenedor-cocuy{
+    left: auto;
+    right: auto;
+  }
+
+  .contenedor-buenaventura{
+    left: auto;
+  }
+
+  h2{
+    font-size: 1.5rem;
+  }
+
+  .guatape{
+    width: 68%;
+  }
+
+  .contenedor-guatape{
+    top: auto;
+  }
+
+  .section-guatape{
+    flex-direction: column;
+  }
+}
+ }

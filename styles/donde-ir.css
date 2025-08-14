@@ -75,7 +75,6 @@ h4 {
     width: 1050px;
     text-align: center;
     margin-left: 140px;
-    border: 3px solid violet;
     font-size: 45px;
 }
 
@@ -90,12 +89,8 @@ footer {
     margin-top: 70px;
     height: 20%;
     background-color: #3f688c;
-    border: 4px solid green;
 }
 
-.logoImagen {
-    border: 5px solid yellow;
-}
 
 .logo {
     margin-left: 0%;
@@ -208,7 +203,6 @@ footer {
     height: 600px;
     margin-top: 50px;
     margin-left: 50px;
-    border: 5px solid green;
 }
 
 .parrafo-andesOccidental {
@@ -332,123 +326,126 @@ footer {
 }
 
 footer {
-  margin-top: 70px;
-  height: 20%;
-  background-color: #3f688c;
-  /* border: 4px solid green; */
+    margin-top: 70px;
+    height: 20%;
+    background-color: #3f688c;
+    /* border: 4px solid green; */
 }
 
 .logoImagen {
-  width: 150px;
-  height: 150px;
+    width: 150px;
+    height: 150px;
 }
 
 .logo {
-  /* padding-top: 80px; */
-  /* border: 5px solid yellow; */
-  /* margin: auto; */
-  margin-left: 0%;
-  width: 20%;
-  height: 100%;
-  display: flex;
-  align-items: center;
+    /* padding-top: 80px; */
+    /* border: 5px solid yellow; */
+    /* margin: auto; */
+    margin-left: 0%;
+    width: 20%;
+    height: 100%;
+    display: flex;
+    align-items: center;
 }
 
 .footer {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: start;
-  /* border: 3px solid violet; */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: start;
+    /* border: 3px solid violet; */
 }
 
 .final {
-  display: flex;
-  flex-direction: column;
+    display: flex;
+    flex-direction: column;
 }
 
 .redes {
-  /* border: 5px solid red; */
-  /* margin: auto; */
-  margin-right: 100px;
-  margin-top: 80px;
-  /* margin-left: 30px; */
-  width: 30%;
-  color: white;
-}
-
-.redes p{
-  color: white;
-}
-
-.redes h6 {
-  align-items: center;
-  text-align: center;
-  font-size: 30px;
-  font-family: "Kaushan Script", sans-serif;
+    /* border: 5px solid red; */
+    /* margin: auto; */
+    margin-right: 100px;
+    margin-top: 80px;
+    /* margin-left: 30px; */
+    width: 30%;
+    color: white;
 }
 
 .redes p {
-  font-size: 25px;
-  font-family: "Kaushan Script", sans-serif;
+    color: white;
+}
+
+.redes h6 {
+    align-items: center;
+    text-align: center;
+    font-size: 30px;
+    font-family: "Kaushan Script", sans-serif;
+}
+
+.redes p {
+    font-size: 25px;
+    font-family: "Kaushan Script", sans-serif;
 }
 
 .contacto {
-  margin-top: 80px;
-  /* margin: auto; */
-  /* border: 5px solid blue; */
-  width: 40%;
-  color: white;
-}
-
-.contacto p{
-  color: white;
-}
-
-.contacto h6 {
-  align-items: center;
-  text-align: center;
-  font-size: 30px;
-  font-family: "Kaushan Script", sans-serif;
+    margin-top: 80px;
+    /* margin: auto; */
+    /* border: 5px solid blue; */
+    width: 40%;
+    color: white;
 }
 
 .contacto p {
-  font-size: 25px;
-  font-family: "Kaushan Script", sans-serif;
+    color: white;
+}
+
+.contacto h6 {
+    align-items: center;
+    text-align: center;
+    font-size: 30px;
+    font-family: "Kaushan Script", sans-serif;
+}
+
+.contacto p {
+    font-size: 25px;
+    font-family: "Kaushan Script", sans-serif;
 }
 
 .creado {
-  text-align: center;
-  color: white;
+    text-align: center;
+    color: white;
 }
 
 @media screen and (max-width: 768px) {
-  .footer {
-    flex-direction: column;
-  }
-  
-  footer{
-    height: auto;
-  }
-  .contacto {
-    width: 100%;
-  }
-  .redes {
-    width: 100%;
-  }
-  .logo {
-    width: 100%;
-    justify-content: center;
-  }
+    .footer {
+        flex-direction: column;
+    }
 
-  .menu{
-    height: auto;
-  }
+    footer {
+        height: auto;
+    }
 
-  h1{
-    font-size: 2rem;
-    top: 15%;
-    right: 0;
-    left: 0;
-  }
+    .contacto {
+        width: 100%;
+    }
+
+    .redes {
+        width: 100%;
+    }
+
+    .logo {
+        width: 100%;
+        justify-content: center;
+    }
+
+    .menu {
+        height: auto;
+    }
+
+    h1 {
+        font-size: 2rem;
+        top: 15%;
+        right: 0;
+        left: 0;
+    }
 }

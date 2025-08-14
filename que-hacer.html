@@ -1,12 +1,248 @@
 <!DOCTYPE html>
-<html lang="eS">
+<html lang="es">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="shortcut icon" href="./assets/favicon.ico" type="image/x-icon" />
-    <title>QUÉ HACER?</title>
+    <title>Capurganá — Descubre Colombia</title>
+
+    <meta name="description" content="Guía del Desierto de la Tatacoa: razones para visitarlo, ubicación y contacto." />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous" />
+
+  <!-- Iconos de bootstrap -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css" />
+  <!-- Font Awesome -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet" />
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" rel="stylesheet" />
+  <!-- MDB -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/9.1.0/mdb.min.css" rel="stylesheet" />
+
+    <link rel="stylesheet" href="./styles/que-hacer.css" />
 </head>
+
 <body>
-    
+
+    <!-- ========================================================= HEADER ========================================================= -->
+    <header>
+    <nav class="navbar navbar-expand-lg navbar-dark menu">
+      <div class="container-fluid">
+        <button data-mdb-collapse-init class="navbar-toggler" type="button" data-mdb-target="#navbarTogglerDemo03"
+          aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+          <i class="fas fa-bars"></i>
+        </button>
+        <a class="navbar-brand" href="./index.html">
+          <img class="icono" src="./assets/android-chrome-512x512.png" alt="logo" />
+        </a>
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item tips">
+              <a class="nav-link active" aria-current="page" href="./index.html">Inicio</a>
+            </li>
+            <li class="nav-item tips">
+              <a class="nav-link" href="./donde-ir.html">Dónde ir?</a>
+            </li>
+            <li class="nav-item tips">
+              <a class="nav-link" href="./que-hacer.html">Qué hacer?</a>
+            </li>
+            <li class="nav-item tips">
+              <a class="nav-link" href="./contactanos.html">Contáctanos</a>
+            </li>
+          </ul>
+
+          <form class="d-none d-md-flex input-group my-auto barraBusqueda">
+            <input autocomplete="off" type="search" class="form-control rounded" placeholder="Buscar"
+              style="min-width: 225px" />
+            <span class="input-group-text border-0"><i class="fas fa-search lupa"></i></span>
+          </form>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+    <!-- ================================================= MAIN ================================================== -->
+    <main>
+        <!-- Sección: Título -->
+        <section class="py-4 py-md-5">
+            <section class="container">
+                <h1 class="display-5 display-md-4 text-center fw-bold titulo-principal titulo">Capurganá</h1>
+                <!-- Imagen principal -->
+                <figure class="mx-auto imagen-principal mt-3">
+                    <img class="img-fluid rounded-4 shadow-md" src="./assets/image 56 (1).svg" alt="Capurganá" />
+                </figure>
+                <article class="mx-auto parrafo-intro">
+                    <p class="texto">
+                        Capurganá es un paraíso costero escondido en el extremo norte del Chocó, donde el mar Caribe se
+                        mezcla con la selva tropical en un espectáculo de colores y vida. Sus aguas cristalinas,
+                        arrecifes de coral y playas vírgenes te invitan a relajarte y explorar un entorno natural casi
+                        intacto. Este destino único ofrece la oportunidad de desconectarte del mundo y sumergirte en la
+                        tranquilidad, rodeado de la exuberante biodiversidad del Pacífico y el Caribe colombiano.
+                    </p>
+                </article>
+            </section>
+        </section>
+
+        <!-- Sección: Razones para visitar (tarjetas) -->
+        <section id="destino" class="py-2 py-md-4">
+            <section class="container">
+                <h2 class="h3 text-center fw-bold mb-4">¿Por qué visitar este lugar en vez de otros más populares?</h2>
+
+                <!-- Grid Bootstrap: 3 columnas en pantallas medianas o grandes, 1 en móvil -->
+                <section class="row g-3">
+                    <article class="col-12 col-md-4">
+                        <section class="card h-100 shadow-sm border-0 tarjeta-caracteristica">
+                            <section class="card-body">
+                                <!-- Icono (Bootstrap Icons) -->
+                                <figure class="feature-icon">
+                                    <i class="bi bi-star-fill"></i>
+                                </figure>
+                                <h3 class="h6 fw-bold">Aventura Marina Inolvidable</h3>
+                                <p class="mb-0">Aguas cristalinas y arrecifes de coral que invitan a sumergirse y
+                                    descubrir un mundo submarino lleno de vida, colores y especies únicas del Caribe
+                                    colombiano.</p>
+                            </section>
+                        </section>
+                    </article>
+
+                    <article class="col-12 col-md-4">
+                        <section class="card h-100 shadow-sm border-0 card-feature">
+                            <section class="card-body">
+                                <figure class="feature-icon feature-icon--blue">
+                                    <i class="bi bi-moon-stars-fill"></i>
+                                </figure>
+                                <h3 class="h6 fw-bold">Paisaje Costero de Ensueño</h3>
+                                <p class="mb-0">Playas de arena dorada y aguas cristalinas rodeadas de exuberante selva
+                                    tropical, creando un escenario perfecto para relajarse y capturar fotografías
+                                    impresionantes.</p>
+                            </section>
+                        </section>
+                    </article>
+
+                    <article class="col-12 col-md-4">
+                        <section class="card h-100 shadow-sm border-0 card-feature">
+                            <section class="card-body">
+                                <figure class="feature-icon feature-icon--red">
+                                    <i class="bi bi-briefcase-fill"></i>
+                                </figure>
+                                <h3 class="h6 fw-bold">Turismo Tranquilo y Auténtico</h3>
+                                <p class="mb-0">Un destino poco concurrido donde podrás disfrutar de la calma,
+                                    interactuar con la comunidad local y conectar profundamente con la naturaleza.</p>
+                            </section>
+                        </section>
+                    </article>
+                </section>
+            </section>
+        </section>
+
+        <!-- Sección: Ubicación -->
+        <section class="py-3 py-md-5">
+            <section class="container">
+                <h2 class="h4 text-center fw-bold mb-4">Ubicación</h2>
+
+                <article class="card border-0 shadow-sm mx-auto tarjeta-ubicacion">
+                    <section class="card-body">
+                        <section class="d-flex align-items-start gap-3">
+                            <figure class="icono-resaltado">
+                                <i class="bi bi-geo-alt-fill"></i>
+                            </figure>
+                            <section>
+                                <h3 class="h6 fw-bold mb-1">Capurganá</h3>
+                                <p class="mb-2 small">
+                                    Región: Chocó, Colombia — Municipio: Acandí — Distancia desde Medellín: ~360 km
+                                </p>
+                            </section>
+                        </section>
+
+                        <section class="mt-3 d-flex align-items-center gap-2 etiqueta-informativa">
+                            <i class="bi bi-check-circle-fill"></i>
+                            <p class="mb-0 small">Ubicado en la frontera con Panamá, en el golfo de Urabá, rodeado de
+                                selva tropical y aguas cristalinas del mar Caribe.</p>
+                        </section>
+                    </section>
+                </article>
+            </section>
+        </section>
+    </main>
+
+    <!-- ======================================================================== FOOTER ========================================================================================== -->
+    <!-- Footer -->
+  <footer class="text-center text-lg-start text-muted">
+    <!-- Section: Social media -->
+    <section class="p-4 border-bottom">
+      <!-- Section: Links  -->
+      <section class="final">
+        <section class="contenedor-redes">
+          <!-- Grid row -->
+          <div class="row mt-3">
+            <!-- Grid column -->
+            <section class="footer">
+              <div class="logo">
+                <!-- Content -->
+                <img class="logoImagen" src="./assets/android-chrome-512x512.png" alt="logo">
+              </div>
+              <!-- Grid column -->
+
+              <!-- Grid column -->
+              <div class="redes">
+                <!-- Links -->
+                <h6 class="text-uppercase fw-bold mb-4">
+                  Redes Sociales
+                </h6>
+                <p>
+                  <i class="bi bi-instagram"></i>
+                  <a href="https://www.instagram.com/?flo=true" class="text-reset">Descubre_Colombia</a>
+                </p>
+                <p>
+                  <i class="bi bi-facebook"></i>
+                  <a href="https://www.facebook.com/?stype=lo&flo=1&deoia=1&jlou=AfeqD6CRYPjEAXs30L4qc0PcTxNDGCWLKJqoLb7Id6T5GOMjSwRKKo49drx9y1yxq7obyDEEXkF6iRCLVl67tIPU&smuh=5847&lh=Ac_R5DNHw0dDGbokWug"
+                    class="text-reset">Descubre_Colombia25</a>
+                </p>
+                <p>
+                  <i class="bi bi-whatsapp"></i>
+                  <a href="https://web.whatsapp.com/" class="text-reset">3002218722</a>
+                </p>
+              </div>
+              <!-- Grid column -->
+
+              <!-- Grid column -->
+              <div class="contacto">
+                <!-- Links -->
+                <h6 class="text-uppercase fw-bold mb-4">Contacto</h6>
+                <p><i class="fas fa-home me-3"></i>Dirección: Carrera 12 #45-67, Bogotá, Colombia</p>
+                <p>
+                  <i class="fas fa-envelope me-3"></i>
+                  info@descubrecolombia.com
+                </p>
+                <p><i class="fas fa-phone me-3"></i> (+57) 3209876543 </p>
+                <p><i class="fas fa-phone me-3"></i> (+57) 3104567890 </p>
+              </div>
+              <!-- Grid column -->
+            </section>
+            <!-- Grid row -->
+          </div>
+        </section>
+        <!-- Section: Links  -->
+
+        <!-- Copyright -->
+        <div class="creado" ;>
+          © 2025 Copyright:
+          <a class="text-reset fw-bold" href="https://mdbootstrap.com/">Creado por Descubre-Colombia</a>
+        </div>
+      </section>
+      <!-- Copyright -->
+  </footer>
+  <!-- Footer -->
+    <!-- =========================
+       SCRIPTS
+       ========================= -->
+
+    <!-- Bootstrap 5 -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- MDBootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/mdb-ui-kit@7.2.0/js/mdb.umd.min.js"></script>
 </body>
+
 </html>
