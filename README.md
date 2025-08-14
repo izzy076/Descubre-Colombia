@@ -1,4 +1,4 @@
-# Descubre Colombia - Isabela Niño, Julian Muñoz y Miguel Garnica
+# Descubre Colombia - Isabella Niño, Julian Muñoz y Miguel Garnica
 
 Este proyecto es una página web que permite a los usuarios explorar *lugares turísticos poco conocidos de Colombia*, brindando información, imágenes y datos relevantes de cada destino.
 
@@ -21,10 +21,10 @@ Este proyecto es una página web que permite a los usuarios explorar *lugares tu
 
 ## 👨‍💻 Autores
 
-- *Isabela Niño*  
+- *Isabella Niño*  
 - *Julian Muñoz*  
 - *Miguel Garnica*  
 
 ---
 
-© 2025 Isabela Niño, Julian Muñoz y Miguel Garnica. Todos los derechos reservados.
+© 2025 Isabella Niño, Julian Muñoz y Miguel Garnica. Todos los derechos reservados.
